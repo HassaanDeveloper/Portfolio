@@ -153,7 +153,7 @@ const categories = [
         id: 1,
         title: "E-commerce Website",
         description: "A modern e-commerce style web application built during a hackathon, featuring product galleries, responsive UI and themes inspired by Nike’s layout.",
-        image: "/images/web-1.PNG",
+        image: "/images/web-1.png",
         tech: ["Next.js", "Tailwind CSS", "Vercel", "TypeScript"],
         github: "https://github.com/HassaanDeveloper/Hackathon",
         live: "https://hackathon-zeta-ashy.vercel.app/"
@@ -162,7 +162,7 @@ const categories = [
         id: 2,
         title: "Countdown Timer",
         description: "A responsive web application that functions as a customizable countdown timer. Users can set the time, start, pause, and reset the timer. It also includes a theme toggle feature.",
-        image: "/images/web-2.PNG",
+        image: "/images/web-2.png",
         tech: ["Next.js", "Tailwind CSS", "Vercel", "Shadcn-Ui", "Framer Motion", "TypeScript"],
         github: "https://github.com/HassaanDeveloper/Web-Development-Projects/tree/main/counter_app",
         live: "https://web-development-projects-k192.vercel.app/",
@@ -171,7 +171,7 @@ const categories = [
         id: 3,
         title: "Online Course Platform Landing Page",
         description: "A multi-section, responsive landing page template for an online education/course platform. It features sections for course categories, company achievements, course listings, a team showcase, customer testimonials, and a newsletter sign-up.",
-        image: "/images/web-3.PNG",
+        image: "/images/web-3.png",
         tech: ["Next.js", "Tailwind CSS", "Vercel", "TypeScript"],
         github: "https://github.com/HassaanDeveloper/LandingPage_class6",
         live: "https://landing-page-class6.vercel.app/",
@@ -180,7 +180,7 @@ const categories = [
         id: 4,
         title: "Animated Birthday Wish App",
         description: "A fun and interactive web app for sending personalized birthday greetings. It typically features interactive elements like confetti, lightable candles, or a card reveal.",
-        image: "/images/web-4.PNG",
+        image: "/images/web-4.png",
         tech: ["Next.js", "React", "Tailwind CSS", "Vercel", "Shadcn UI", "Framer-motion"],
         github: "https://github.com/HassaanDeveloper/Web-Development-Projects/tree/main/birthday_wish",
         live: "https://web-development-projects-ten-chi.vercel.app/"
@@ -189,7 +189,7 @@ const categories = [
         id: 5,
         title: "Full Stack MERN Project",
         description: "A complete full-stack application leveraging the MERN (MongoDB, Express, React, Node.js) stack, demonstrating proficiency in both front-end and back-end development, including database operations.",
-        image: "/images/web-5.PNG",
+        image: "/images/web-5.png",
         tech: ["MongoDB", "React", "Node.js", "MERN Stack", "zod", "Resend E-mail", "next.js", "Shadcn-Ui"],
         github: "https://github.com/HassaanDeveloper/mern-stack-project",
         live: "https://mern-stack-project-pi.vercel.app/"
@@ -198,7 +198,7 @@ const categories = [
         id: 6,
         title: "Dynamic Resume Builder",
         description: "A web-based tool that allows users to input their data and generate a clean, customizable, and professionally formatted resume which can typically be downloaded or shared as a PDF.",
-        image: "/images/web-6.PNG",
+        image: "/images/web-6.png",
         tech: ["HTML", "CSS", "TypeScript", "PDF Generation Library (Inferred)"],
         github: "https://github.com/HassaanDeveloper/Dynamic-Resume-Builder",
         live: "https://dynamic-resume-builder-murex.vercel.app/"
@@ -207,7 +207,7 @@ const categories = [
         id: 7,
         title: "Weather Widget / Forecast App",
         description: "A simple, clean web application that fetches and displays real-time weather information for a user-specified location using a public weather API.",
-        image: "/images/web-7.PNG",
+        image: "/images/web-7.png",
         tech: ["HTML", "CSS", "TypeScript", "Weather API (e.g., OpenWeatherMap)", "Framer-motion", "Shadcn-Ui"],
         github: "https://github.com/HassaanDeveloper/Web-Development-Projects/tree/main/weather_widget",
         live: "https://web-development-projects-m9j9.vercel.app/"
@@ -216,7 +216,7 @@ const categories = [
         id: 8,
         title: "Next.js App (Fifth Project)",
         description: "A general-purpose web application built using the Next.js framework, typically showcasing mastery of components, routing, and modern React development patterns.",
-        image: "/images/web-8.PNG",
+        image: "/images/web-8.png",
         tech: ["Next.js", "Tailwind CSS", "Vercel", "TypeScript"],
         github: "https://github.com/HassaanDeveloper/Web-Development-Projects/tree/main/fifth_nextjs",
         live: "https://web-development-projects-r3j4.vercel.app/"
@@ -225,7 +225,7 @@ const categories = [
         id: 9,
         title: "PulesPay Landing Page Clone",
         description: "A detailed and pixel-perfect clone or inspired project of the PulesPay landing page, demonstrating advanced skills in responsive design and complex layout implementation.",
-        image: "/images/web-9.PNG",
+        image: "/images/web-9.png",
         tech: ["HTML", "CSS", "TypeScript", "Responsive Design", "GSAP", "Framer-motion", "Next.js", "Shadcn-Ui"],
         github: "https://github.com/HassaanDeveloper/Web-Development-Projects/tree/main/pulespay",
         live: "https://web-development-projects-no6h.vercel.app/"
@@ -234,7 +234,7 @@ const categories = [
         id: 10,
         title: "Next.js App (Second Project)",
         description: "A foundational project utilizing the Next.js framework, focused on establishing the core setup, routing, and component structure for a simple web application.",
-        image: "/images/web-10.PNG",
+        image: "/images/web-10.png",
         tech: ["Next.js", "Vercel", "TypeScript", "TailwindCSS"],
         github: "https://github.com/HassaanDeveloper/Web-Development-Projects/tree/main/second_nextjs",
         live: "https://web-development-projects-39pt.vercel.app/"
@@ -243,7 +243,7 @@ const categories = [
         id: 11,
         title: "Next.js E-commerce Template",
         description: "A modern, front-end e-commerce website built with Next.js and Vercel, demonstrating product display, dynamic routing, and a professional user interface.",
-        image: "/images/web-11.PNG",
+        image: "/images/web-11.png",
         tech: ["Next.js", "Vercel", "Tailwind CSS (Likely)", "TypeScript"],
         github: "https://github.com/HassaanDeveloper/Web-Development-Projects/tree/main/ecommerce_nextjs",
         live: "https://web-development-projects-t86w.vercel.app/"

@@ -63,7 +63,7 @@ const certifications: Certificate[] = [
   },
   {
     id: 7,
-    name: "Python",
+    name: "https://www.kaggle.com/learn/certification/hassaanu9k/intro-to-programming",
     issuer: "Kaggle",
     date: "March 2024",
     link: "https://www.kaggle.com/learn/certification/hassaanu9k/python",
@@ -94,7 +94,7 @@ const certifications: Certificate[] = [
     skills: ["SQL Joins", "Window Functions", "Subqueries", "Optimization"],
   },
   {
-    id: 1,
+    id: 11,
     name: "Accelerate Your Job Search with AI",
     issuer: "Google via Coursera",
     date: "October 2025",
