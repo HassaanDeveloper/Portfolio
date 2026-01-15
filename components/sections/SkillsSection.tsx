@@ -145,29 +145,29 @@ const itemVariants: Variants = {
 
 const SkillsSection: React.FC = () => {
   return (
-    <section id="skills" className="container mx-auto py-20 px-4">
+    <section id="skills" className="container mx-auto py-16 px-4 sm:py-20">
       <motion.h2
         className="mb-12 text-center text-4xl font-bold text-foreground sm:text-5xl text-glow"
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.5 }}
       >
         My Skills
       </motion.h2>
 
       <motion.div
-        className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
+        className="grid grid-cols-1 gap-6 md:gap-8 md:grid-cols-2 lg:grid-cols-3"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
+        viewport={{ once: true, amount: 0.1 }}
       >
         {skillsCategories.map((category, index) => (
           <motion.div key={category.category} variants={itemVariants}>
             <Card className="flex h-full flex-col rounded-lg border-2 border-primary/20 bg-card p-6 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:border-primary">
               <CardHeader className="flex flex-row items-center gap-4 p-0 pb-4">
-                {category.icon && <category.icon className="h-8 w-8 text-primary" />}
+                {category.icon && React.createElement(category.icon, { className: "h-8 w-8 text-primary" })}
                 <CardTitle className="text-2xl font-semibold text-foreground">
                   {category.category}
                 </CardTitle>
@@ -181,7 +181,7 @@ const SkillsSection: React.FC = () => {
                         className="absolute left-0 top-0 h-full rounded-full bg-primary"
                         initial={{ width: 0 }}
                         whileInView={{ width: `${skill.level}%` }}
-                        viewport={{ once: true, amount: 0.8 }}
+                        viewport={{ once: true, amount: 0.3 }}
                         transition={{ duration: 1.5, ease: "easeOut" }}
                       ></motion.div>
                     </div>

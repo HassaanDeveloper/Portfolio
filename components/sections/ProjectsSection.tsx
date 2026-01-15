@@ -398,12 +398,12 @@ const itemVariants: Variants = {
 // ======== COMPONENT ========
 const ProjectsSection: React.FC = () => {
   return (
-    <section id="projects" className="container mx-auto py-20 px-4">
+    <section className="container mx-auto py-16 px-4 sm:py-20">
       <motion.h2
         className="mb-12 text-center text-4xl font-bold sm:text-5xl text-glow"
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.5 }}
       >
         My Work
@@ -411,22 +411,22 @@ const ProjectsSection: React.FC = () => {
 
       {categories.map((category, idx) => (
         <div key={idx} className="mb-16">
-          <h3 className="mb-8 text-2xl font-semibold text-primary">
+          <h3 className="mb-6 text-xl font-semibold text-primary sm:mb-8 sm:text-2xl">
             {category.name}
           </h3>
 
           <motion.div
-            className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
+            className="grid grid-cols-1 gap-6 md:gap-8 md:grid-cols-2 lg:grid-cols-3"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.1 }}
           >
             {category.projects.map((project) => (
               <motion.div key={project.id} variants={itemVariants}>
                 <Card className="flex h-full flex-col justify-between overflow-hidden rounded-lg border-2 border-primary/20 bg-card shadow-lg transition-all duration-300 hover:scale-[1.02] hover:border-primary">
                   {project.image && (
-                    <div className="relative h-48 w-full overflow-hidden">
+                    <div className="relative h-40 w-full overflow-hidden sm:h-48">
                       <Image
                         src={project.image}
                         alt={project.title}
@@ -435,11 +435,11 @@ const ProjectsSection: React.FC = () => {
                       />
                     </div>
                   )}
-                  <CardHeader className="flex-grow p-6">
-                    <CardTitle className="mb-2 text-2xl font-bold">
+                  <CardHeader className="flex-grow p-4 sm:p-6">
+                    <CardTitle className="mb-2 text-lg font-bold sm:text-2xl">
                       {project.title}
                     </CardTitle>
-                    <CardDescription>{project.description}</CardDescription>
+                    <CardDescription className="text-sm sm:text-base">{project.description}</CardDescription>
                     <div className="mt-4 flex flex-wrap gap-2">
                       {project.tech.map((tech, index) => (
                         <span

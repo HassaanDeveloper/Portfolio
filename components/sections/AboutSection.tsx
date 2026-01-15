@@ -44,11 +44,10 @@ const AboutSection: React.FC = () => {
         <motion.div variants={itemVariants} className="flex-shrink-0">
           <div className="relative h-60 w-60 overflow-hidden rounded-full border-4 border-primary shadow-lg transition-transform duration-300 hover:scale-105">
             <Image
-              src="/images/my-pic.png" 
+              src="/images/my-pic.png"
               alt="Hassaan"
-              layout="fill"
-              objectFit="cover"
-              className="grayscale hover:grayscale-0 transition-all duration-500"
+              fill
+              className="object-cover grayscale hover:grayscale-0 transition-all duration-500"
             />
           </div>
         </motion.div>
