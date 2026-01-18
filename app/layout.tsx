@@ -12,7 +12,7 @@ import StarsBackground from "@/components/shared/StarBackground";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Your Name | Digital Canvas",
+  title: "M. Hassaan",
   description: "Your professional portfolio showcasing modern web development.",
 };
 
